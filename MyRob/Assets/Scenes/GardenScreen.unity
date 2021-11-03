@@ -496,18 +496,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1566058383}
     m_Modifications:
-    - target: {fileID: 7024197068363872580, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7024197068597318020, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7024197068984294934, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280326, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_Name
       value: BottomNav
@@ -595,14 +583,6 @@ PrefabInstance:
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8133130325900421765, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 8133130325900421765, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
