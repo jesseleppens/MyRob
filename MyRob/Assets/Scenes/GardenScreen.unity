@@ -1312,7 +1312,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7024197068597318020, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7024197068597318026, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1344,7 +1344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7024197068984294934, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280326, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_Name
@@ -2071,7 +2071,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2071002776
 RectTransform:
   m_ObjectHideFlags: 0
