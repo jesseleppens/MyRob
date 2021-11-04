@@ -509,10 +509,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 822520708}
     m_Modifications:
-    - target: {fileID: 7024197068363872580, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-      propertyPath: m_Name
-      value: MenuMiddle
-      objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280326, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_Name
       value: BottomNav
@@ -608,23 +604,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
   m_PrefabInstance: {fileID: 1254147777}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1254147779 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7024197068597318020, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
-  m_PrefabInstance: {fileID: 1254147777}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1254147780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254147779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62b01aba315bca24db0d08d4f2f3fcf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1298088332
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +697,18 @@ PrefabInstance:
     - target: {fileID: 46574389166061452, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
       propertyPath: m_Text
       value: SLEEP
+      objectReference: {fileID: 0}
+    - target: {fileID: 46574389166061452, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 46574389166061453, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 46574389166061453, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 46574390298767037, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
       propertyPath: m_Pivot.x

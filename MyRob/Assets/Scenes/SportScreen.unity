@@ -130,6 +130,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1232133783}
     m_Modifications:
+    - target: {fileID: 7024197068363872581, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024197068597318021, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024197068984294935, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280326, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_Name
       value: BottomNav
@@ -164,11 +176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 393.5
+      value: 527.5
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 79.82001
+      value: 84.88
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -200,11 +212,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.25
+      value: 0.25001
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 36.910004
+      value: 39.440002
       objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -864,6 +876,10 @@ PrefabInstance:
     - target: {fileID: 46574389166061452, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
       propertyPath: m_Text
       value: SPORT
+      objectReference: {fileID: 0}
+    - target: {fileID: 46574389166061452, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 46574390298767037, guid: a477889377709894e9e4fade5e4a87d8, type: 3}
       propertyPath: m_Pivot.x
