@@ -18,6 +18,7 @@ public class WaterPopUp : MonoBehaviour
         }
         else
         {
+            Panel.SetActive(false);
             isActive = false;
         }
     }
