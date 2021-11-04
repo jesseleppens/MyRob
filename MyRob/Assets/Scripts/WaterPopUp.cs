@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class WaterPopUp : MonoBehaviour
 {
+   
+    bool isActive = false;
     public GameObject Panel;
 
-    public void OpenPanel()
+    public void OnButtonClick()
     {
-        if(Panel != null)
+
+        if (isActive == false)
         {
             Panel.SetActive(true);
+            isActive = true;
+        }
+        else
+        {
+            isActive = false;
         }
     }
 }
