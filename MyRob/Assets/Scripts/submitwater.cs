@@ -13,7 +13,7 @@ public class submitwater : MonoBehaviour
     public Toggle kanG_Toggle;
     string Watergedronkenstring;
     public Text WatergedronkenText;
-    public Text WatergedronkenText2;
+  
     int WaterGedronken = 0;
 
     void Start()
@@ -59,6 +59,6 @@ public class submitwater : MonoBehaviour
     {
         Watergedronkenstring = WaterGedronken.ToString();
         WatergedronkenText.text = Watergedronkenstring + " ML";
-        WatergedronkenText2.text = Watergedronkenstring + " ML";
+        
     }
 }
