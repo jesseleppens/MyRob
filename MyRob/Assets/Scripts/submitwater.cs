@@ -16,16 +16,6 @@ public class submitwater : MonoBehaviour
   
     int WaterGedronken = 0;
 
-    void Start()
-    {
-        Debug.Log(kleinG_Toggle);
-        Debug.Log(normaalG_Toggle);
-        Debug.Log(grootG_Toggle);
-        Debug.Log(kanG_Toggle);
-
-
-
-    }
 
 
 
@@ -54,11 +44,9 @@ public class submitwater : MonoBehaviour
             WaterGedronken = WaterGedronken + 1000;
         }
 
-    }
-    void Update()
-    {
         Watergedronkenstring = WaterGedronken.ToString();
         WatergedronkenText.text = Watergedronkenstring + " ML";
         
     }
+
 }
