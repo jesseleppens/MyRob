@@ -37,7 +37,9 @@ public class SleepHandler : MonoBehaviour
 
     public void Submit()
     {
-        totalSleep.text = "TOTAL SLEEP: " + total.ToString() + " HOURS";
+        StatsTracker.sleep = (int)total;
+        StatsTracker.StatsBubbleUpdate();
+        totalSleep.text = "TOTAL SLEEP: " + StatsTracker.sleep + " HOURS";
         OnButtonClick();
     }
 
