@@ -46,7 +46,11 @@ public class submitwater : MonoBehaviour
 
         Watergedronkenstring = WaterGedronken.ToString();
         WatergedronkenText.text = Watergedronkenstring + " ML";
-        
+        StatsTracker.water = WaterGedronken;
+
+        StatsTracker.StatsBubbleUpdate();
     }
+
+   
 
 }

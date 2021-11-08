@@ -27,14 +27,15 @@ public class StatsTracker : MonoBehaviour
 
                 break;
             case 2:
-                Text overview = GameObject.Find("TotalSleep").GetComponent<Text>();
-                overview.text = "TOTAL SLEEP: " + StatsTracker.sleep + " HOURS";
+                Text overviewSleep = GameObject.Find("TotalSleep").GetComponent<Text>();
+                overviewSleep.text = "TOTAL SLEEP: " + StatsTracker.sleep + " HOURS";
                 break;
             case 3:
 
                 break;
             case 4:
-
+                Text overViewWater = GameObject.Find("waterGedronken").GetComponent<Text>();
+                overViewWater.text = StatsTracker.water + " ML";
                 break;
         }     
         sleepSprite = GameObject.Find("Sleep").GetComponent<Image>();
@@ -67,5 +68,32 @@ public class StatsTracker : MonoBehaviour
         {
             sleepSprite.sprite = spriteArray[17];
         }
+
+        //water
+
+        if (water == 0)
+        {
+            waterSprite.sprite = spriteArray[6];
+        }
+        if (water > 0 && water <= 1000)
+        {
+            waterSprite.sprite = spriteArray[5];
+        }
+        if (water > 1000 && water <= 1500)
+        {
+            waterSprite.sprite = spriteArray[4];
+        }
+        if (water > 1500 && water <= 2000)
+        {
+            waterSprite.sprite = spriteArray[3];
+        }
+        if (water > 2500)
+        {
+            waterSprite.sprite = spriteArray[2];
+        }
+
     }
+
+  
+
 }
