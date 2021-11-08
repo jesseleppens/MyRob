@@ -36,7 +36,7 @@ public class StatsTracker : MonoBehaviour
             case 4:
 
                 break;
-        }     
+        }
         sleepSprite = GameObject.Find("Sleep").GetComponent<Image>();
         waterSprite = GameObject.Find("Water").GetComponent<Image>();
         foodSprite = GameObject.Find("Food").GetComponent<Image>();
@@ -47,6 +47,7 @@ public class StatsTracker : MonoBehaviour
 
     public static void StatsBubbleUpdate()
     {
+
         if (sleep == 0)
         {
             sleepSprite.sprite = spriteArray[21];
