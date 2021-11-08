@@ -294,6 +294,7 @@ GameObject:
   - component: {fileID: 246317079}
   - component: {fileID: 246317078}
   - component: {fileID: 246317077}
+  - component: {fileID: 246317082}
   m_Layer: 6
   m_Name: BackGround
   m_TagString: Untagged
@@ -382,6 +383,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!222 &246317082
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246317076}
+  m_CullTransparentMesh: 1
 --- !u!224 &320636309 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
@@ -437,14 +446,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6603774, g: 0.17132434, b: 0.17132434, a: 1}
+  m_Color: {r: 0.172549, g: 0.65882355, b: 0.5618762, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dbeb8954562991d4291b09337466fbec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -705,6 +714,10 @@ PrefabInstance:
     - target: {fileID: 332706023644014593, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 332706023644014593, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 332706023644014594, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
       propertyPath: m_Camera
@@ -975,7 +988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.40750003, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282.9999, y: -72.775}
+  m_AnchoredPosition: {x: -282.99988, y: -72.775}
   m_SizeDelta: {x: 86, y: 31.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521806398
