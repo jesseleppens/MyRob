@@ -442,3 +442,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fonts:
   - {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+  - {fileID: 12800000, guid: 8c1b9da43389dc8489b93d8947007c93, type: 3}
