@@ -93,6 +93,26 @@ public class StatsTracker : MonoBehaviour
             waterSprite.sprite = spriteArray[2];
         }
 
+        if (food == 0)
+        {
+            foodSprite.sprite = spriteArray[16];
+        }
+        if (food > 0 && food <= 1000)
+        {
+            foodSprite.sprite = spriteArray[15];
+        }
+        if (food > 1000 && food <= 1500)
+        {
+            foodSprite.sprite = spriteArray[14];
+        }
+        if (food > 1500 && food <= 2000)
+        {
+            foodSprite.sprite = spriteArray[13];
+        }
+        if (food > 2500)
+        {
+            foodSprite.sprite = spriteArray[12];
+        }
     }
 
   
