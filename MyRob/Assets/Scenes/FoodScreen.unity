@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.995956, y: 160}
+  m_AnchoredPosition: {x: -31.995972, y: 160}
   m_SizeDelta: {x: 570.29, y: 113.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14819555
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 47047546}
   - component: {fileID: 47047545}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: Calories
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -559,7 +559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.065994, y: -256}
+  m_AnchoredPosition: {x: -32.06598, y: -256}
   m_SizeDelta: {x: 570.15, y: 113.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &150840662
@@ -983,7 +983,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1649368832}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 102
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1066,8 +1066,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.19969933}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11, y: -85.61694}
-  m_SizeDelta: {x: 0.23, y: -242.19}
+  m_AnchoredPosition: {x: 5, y: -101.29999}
+  m_SizeDelta: {x: 0.23, y: -212.25}
   m_Pivot: {x: 1.3911914, y: 0.47610107}
 --- !u!114 &321685534
 MonoBehaviour:
@@ -1307,14 +1307,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 446709787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 594cd5954ccb801418bb4138b50adb32, type: 3}
+  m_Script: {fileID: 11500000, guid: 364f4260a6379d846a6afc3eb8579087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kleinG_Toggle: {fileID: 0}
-  normaalG_Toggle: {fileID: 0}
-  grootG_Toggle: {fileID: 0}
-  kanG_Toggle: {fileID: 0}
-  WatergedronkenText: {fileID: 0}
+  bannana_Toggle: {fileID: 1278138945}
+  apple_Toggle: {fileID: 14819555}
+  frikandel_Toggle: {fileID: 823803117}
+  advocado_Toggle: {fileID: 1144259780}
+  fries_Toggle: {fileID: 150840662}
+  VettenGegetenstringText: {fileID: 1521806398}
+  CaloriesGegetenText: {fileID: 47047545}
+  CarbohydratesGegetenText: {fileID: 791634507}
 --- !u!114 &446709790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1360,7 +1363,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 446709789}
-        m_TargetAssemblyTypeName: submitwater, Assembly-CSharp
+        m_TargetAssemblyTypeName: EtenSubmit, Assembly-CSharp
         m_MethodName: ButtonClick
         m_Mode: 1
         m_Arguments:
@@ -1660,7 +1663,7 @@ GameObject:
   - component: {fileID: 791634508}
   - component: {fileID: 791634507}
   m_Layer: 5
-  m_Name: Text (5)
+  m_Name: Carbohydrates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1763,7 +1766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.20601, y: 20}
+  m_AnchoredPosition: {x: -32.205994, y: 20}
   m_SizeDelta: {x: 570.25, y: 113.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823803117
@@ -2305,7 +2308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.231003, y: -129.79}
+  m_AnchoredPosition: {x: -32.231018, y: -129.79}
   m_SizeDelta: {x: 570.2, y: 113.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144259780
@@ -2471,7 +2474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.160995, y: 296}
+  m_AnchoredPosition: {x: -32.16101, y: 296}
   m_SizeDelta: {x: 570.34, y: 113.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278138945
@@ -2614,12 +2617,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 332706023644014593, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 332706023644014594, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1649368832}
+    - target: {fileID: 332706023644014594, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 101
+      objectReference: {fileID: 0}
     - target: {fileID: 332706023644015101, guid: ae442013d75c6624c899ca82cb58d96a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2938,7 +2945,7 @@ GameObject:
   - component: {fileID: 1521806399}
   - component: {fileID: 1521806398}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Vetten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
