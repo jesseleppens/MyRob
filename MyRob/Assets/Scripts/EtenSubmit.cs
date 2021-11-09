@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EtenSubmit : MonoBehaviour
-{
+public class EtenSubmit : MonoBehaviour 
+{ 
     public Toggle bannana_Toggle;
     public Toggle apple_Toggle;
     public Toggle frikandel_Toggle;
@@ -68,7 +68,7 @@ public class EtenSubmit : MonoBehaviour
 
         VettenGegetenstring = Vetten.ToString();
         VettenGegetenstringText.text = VettenGegetenstring + " Vetten";
-
+        
 
         CaloriesGegetenstring = Calories.ToString();
         CaloriesGegetenText.text = CaloriesGegetenstring + " Calories";
@@ -76,7 +76,7 @@ public class EtenSubmit : MonoBehaviour
 
         CarbohydratesGegetenstring = Carbohydrates.ToString();
         CarbohydratesGegetenText.text = CarbohydratesGegetenstring + " Carbohydrates";
-
+       
 
         StatsTracker.StatsBubbleUpdate();
     }
