@@ -37,7 +37,7 @@ public class StatsTracker : MonoBehaviour
                 Text overViewWater = GameObject.Find("waterGedronken").GetComponent<Text>();
                 overViewWater.text = StatsTracker.water + " ML";
                 break;
-        }     
+        }
         sleepSprite = GameObject.Find("Sleep").GetComponent<Image>();
         waterSprite = GameObject.Find("Water").GetComponent<Image>();
         foodSprite = GameObject.Find("Food").GetComponent<Image>();
@@ -48,6 +48,7 @@ public class StatsTracker : MonoBehaviour
 
     public static void StatsBubbleUpdate()
     {
+
         if (sleep == 0)
         {
             sleepSprite.sprite = spriteArray[21];

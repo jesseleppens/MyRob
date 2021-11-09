@@ -14,8 +14,8 @@ public class SleepHandler : MonoBehaviour
     public Text totalSleep;
     public Toggle AMtoggle;
     public Toggle AMtoggle2;
-    float sleepTime = 1;
-    float wakeupTime = 1;
+    float bedtimeSliderVal = 1;
+    float wakeupSliderVal = 1;
     float total;
 
     public void OnButtonClick()
@@ -45,10 +45,10 @@ public class SleepHandler : MonoBehaviour
 
     void ResetPanel()
     {
-        sleepTime = 1;
-        wakeupTime = 1;
-        WakeupTime.text = wakeupTime.ToString();
-        SleepTime.text = sleepTime.ToString();
+        bedtimeSliderVal = 1;
+        wakeupSliderVal = 1;
+        WakeupTime.text = wakeupSliderVal.ToString();
+        SleepTime.text = bedtimeSliderVal.ToString();
         totalTime.text = "TOTAL: 0 HOURS";
     }
 
@@ -63,15 +63,15 @@ public class SleepHandler : MonoBehaviour
             {
                 value = 0;
             }
-            sleepTime = value;
-            TotalTime(sleepTime, wakeupTime);
+            bedtimeSliderVal = value;
+            TotalTime(bedtimeSliderVal, wakeupSliderVal);
         }
         else
         {
             // set the text next to the slider as the value, adds 12 to the value then calls totaltime
             WakeupTime.text = value.ToString();
-            sleepTime = value + 12;
-            TotalTime(sleepTime, wakeupTime);
+            bedtimeSliderVal = value + 12;
+            TotalTime(bedtimeSliderVal, wakeupSliderVal);
         }
     }
 
@@ -85,15 +85,15 @@ public class SleepHandler : MonoBehaviour
             {
                 value = 0;
             }
-            wakeupTime = value;
-            TotalTime(sleepTime, wakeupTime);
+            wakeupSliderVal = value;
+            TotalTime(bedtimeSliderVal, wakeupSliderVal);
         }
         else
         {
             // set the text next to the slider as the value, adds 12 to the value then calls totaltime
             SleepTime.text = value.ToString();
-            wakeupTime = value + 12;
-            TotalTime(sleepTime, wakeupTime);
+            wakeupSliderVal = value + 12;
+            TotalTime(bedtimeSliderVal, wakeupSliderVal);
         }
     }
 
