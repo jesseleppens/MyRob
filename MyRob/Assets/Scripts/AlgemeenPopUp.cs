@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaterPopUp : MonoBehaviour
+public class AlgemeenPopUp : MonoBehaviour
 {
    
     bool isActive = false;
