@@ -22,12 +22,13 @@ public class EtenSubmit : MonoBehaviour
     int Vetten = 0;
     int Calories = 0;
     int Carbohydrates = 0;
-
+   
 
 
 
     public void ButtonClick()
     {
+        
         if (bannana_Toggle.isOn)
         {
             Vetten = Vetten + 0;
