@@ -15,9 +15,11 @@ public class StatsTracker : MonoBehaviour
     static Image foodSprite;
     static Image sportSprite;
     static Sprite[] spriteArray;
-
+    
+   
     private void Start()
     {
+        
         switch (SceneManager.GetActiveScene().buildIndex)
         {
             case 0:
@@ -93,12 +95,12 @@ public class StatsTracker : MonoBehaviour
             waterSprite.sprite = spriteArray[2];
         }
 
-     
-        
-         if (food == 0)
+
+
+        if (food == 0)
         {
             foodSprite.sprite = spriteArray[16];
-            }
+        }
         if (food > 0 && food <= 1000)
         {
             foodSprite.sprite = spriteArray[15];
@@ -137,5 +139,10 @@ public class StatsTracker : MonoBehaviour
         {
             sportSprite.sprite = spriteArray[7];
         }
+
+
+
+       
     }
+    
 }

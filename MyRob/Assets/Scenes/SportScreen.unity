@@ -1880,6 +1880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopBar
       objectReference: {fileID: 0}
+    - target: {fileID: 1550189374811844133, guid: f13a49caaf571174e82addac0bba4e1b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f13a49caaf571174e82addac0bba4e1b, type: 3}
 --- !u!224 &1458344818 stripped
