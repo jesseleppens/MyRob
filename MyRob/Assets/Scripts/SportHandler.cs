@@ -41,6 +41,5 @@ public class SportHandler : MonoBehaviour
         }
         StatsTracker.sport = totalCalorie;
         StatsTracker.StatsBubbleUpdate();
-        Debug.Log(totalCalorie);
     }
 }
