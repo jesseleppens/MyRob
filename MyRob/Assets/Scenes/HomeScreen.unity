@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BottomNav
       objectReference: {fileID: 0}
+    - target: {fileID: 7024197070102280326, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7024197070102280327, guid: 7dc74bf4f7374594184ffa27c36a800d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
