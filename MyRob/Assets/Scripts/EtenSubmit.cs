@@ -90,15 +90,15 @@ public class EtenSubmit : MonoBehaviour
         }
 
         VettenGegetenstring = Vetten.ToString();
-         VettenGegetenstringText.text = VettenGegetenstring + " Vetten";
+         VettenGegetenstringText.text = VettenGegetenstring;
 
 
         CaloriesGegetenstring = Calories.ToString();
-        CaloriesGegetenText.text = CaloriesGegetenstring + " Calories";
+        CaloriesGegetenText.text = CaloriesGegetenstring;
         StatsTracker.food = Calories;
 
           CarbohydratesGegetenstring = Carbohydrates.ToString();
-          CarbohydratesGegetenText.text = CarbohydratesGegetenstring + " Carbohydrates";
+          CarbohydratesGegetenText.text = CarbohydratesGegetenstring;
 
 
         StatsTracker.StatsBubbleUpdate();

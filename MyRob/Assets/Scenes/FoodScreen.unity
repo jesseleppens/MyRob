@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -72}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.78, y: -63.28}
+  m_SizeDelta: {x: 146.44, y: 28.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47047545
 MonoBehaviour:
@@ -181,11 +181,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &47047546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -550,7 +550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 231.00084, y: 0.000030517578}
+  m_AnchoredPosition: {x: 223.71, y: 13.39}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.4999991, y: 0.50000006}
 --- !u!114 &143278257
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1188010126427347432, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 232130296}
   - component: {fileID: 232130295}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Brood img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,7 +740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 319.99994, y: 52.528996}
+  m_AnchoredPosition: {x: 298.74997, y: 50.000015}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232130295
@@ -763,7 +763,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 4327083190142146643, guid: 2640a8cb38308484598e0a6c8a1958e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1088,7 +1088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.19969933}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9, y: -199}
+  m_AnchoredPosition: {x: -1, y: -197.00002}
   m_SizeDelta: {x: -5.5, y: -453.62}
   m_Pivot: {x: 1.3911914, y: 0.47610107}
 --- !u!114 &321685534
@@ -1457,7 +1457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6690702673004913947, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1587,7 +1587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: 0.0000019073486}
+  m_AnchoredPosition: {x: -317.00003, y: 0.0000019073486}
   m_SizeDelta: {x: 35.88, y: 274.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &446709789
@@ -1794,7 +1794,7 @@ GameObject:
   - component: {fileID: 504328667}
   - component: {fileID: 504328666}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: Fats eaten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1816,8 +1816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -30.999994}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -305.65, y: -31.94}
+  m_SizeDelta: {x: 188.71, y: 63.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504328666
 MonoBehaviour:
@@ -1840,19 +1840,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 67
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Fats '
 --- !u!222 &504328667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2052,8 +2052,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: -72}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 324.99, y: -62.779987}
+  m_SizeDelta: {x: 109.97, y: 28.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791634507
 MonoBehaviour:
@@ -2076,11 +2076,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2088,7 +2088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "0 \n"
 --- !u!222 &791634508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 2721764364338159822, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2742,8 +2742,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1367012153}
   m_HandleRect: {fileID: 1367012152}
   m_Direction: 2
-  m_Value: 0.50000006
-  m_Size: 0.47684032
+  m_Value: 0.4999999
+  m_Size: 0.47492677
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3031,7 +3031,7 @@ GameObject:
   - component: {fileID: 1073561901}
   - component: {fileID: 1073561900}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Boter img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3314,7 +3314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 9088046045455645371, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3562,8 +3562,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 231.00084, y: 0.000030517578}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 223.71, y: 10.485}
+  m_SizeDelta: {x: 100, y: 147.75}
   m_Pivot: {x: 0.4999991, y: 0.50000006}
 --- !u!114 &1366077293
 MonoBehaviour:
@@ -3585,7 +3585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3960676619140101740, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 1480201864}
   - component: {fileID: 1480201863}
   m_Layer: 5
-  m_Name: Text (3)
+  m_Name: Calories eaten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4027,8 +4027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30.999987}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -24, y: -31.939997}
+  m_SizeDelta: {x: 279.07, y: 63.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1480201863
 MonoBehaviour:
@@ -4051,11 +4051,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4063,7 +4063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Calories
 --- !u!222 &1480201864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4115,7 +4115,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.53530365}
-  m_AnchoredPosition: {x: -18.98999, y: -12.10499}
+  m_AnchoredPosition: {x: -18.98999, y: -12.056406}
   m_SizeDelta: {x: 583.76, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497849953
@@ -4192,8 +4192,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.40750003, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282.99982, y: -72.775}
-  m_SizeDelta: {x: 86, y: 31.55}
+  m_AnchoredPosition: {x: -282.99, y: -63.03}
+  m_SizeDelta: {x: 25.99, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521806398
 MonoBehaviour:
@@ -4216,11 +4216,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4228,7 +4228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '0 '
 --- !u!222 &1521806399
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4511,7 +4511,7 @@ GameObject:
   - component: {fileID: 1649899031}
   - component: {fileID: 1649899030}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Bord img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4533,7 +4533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 52.529}
+  m_AnchoredPosition: {x: -24, y: 52.529}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649899030
@@ -4556,7 +4556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8314415303624902473, guid: 2640a8cb38308484598e0a6c8a1958e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4707,7 +4707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3987309983781487047, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5021,8 +5021,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 231.00084, y: 0.000030517578}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 174.49, y: -38.39}
+  m_SizeDelta: {x: 221.35, y: 50}
   m_Pivot: {x: 0.4999991, y: 0.50000006}
 --- !u!114 &1763860624
 MonoBehaviour:
@@ -5044,7 +5044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -2474516733948675960, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5213,7 +5213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5917680785741212613, guid: b0d4847ad282de9468f1a01ea115afb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5243,7 +5243,7 @@ GameObject:
   - component: {fileID: 1893003325}
   - component: {fileID: 1893003324}
   m_Layer: 5
-  m_Name: Text (4)
+  m_Name: Carbohydrates eaten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5265,8 +5265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: -31}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 298.75, y: -24.265003}
+  m_SizeDelta: {x: 232.3, y: 48.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893003324
 MonoBehaviour:
@@ -5289,19 +5289,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 774506c23f71b1744bd7cc24f1027677, type: 3}
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 4
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Carbs
 --- !u!222 &1893003325
 CanvasRenderer:
   m_ObjectHideFlags: 0
