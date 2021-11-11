@@ -9,7 +9,7 @@ using Assets.Scripts.API;
 public class APIget : MonoBehaviour
 {
 
-    public Data GetWeather()
+    public static Data GetWeather()
     {
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://i480028.hera.fhict.nl/api/?user_id=1");
         HttpWebResponse response = (HttpWebResponse)request.GetResponse();
@@ -19,23 +19,9 @@ public class APIget : MonoBehaviour
         return info;
     }
 
-    string fixJson(string value)
+     static string fixJson(string value)
     {
         value = "{\"data\":" + value + "}";
         return value;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        foreach (userinfo item in GetWeather().data)
-        {
-            Debug.Log(item.fats);
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }

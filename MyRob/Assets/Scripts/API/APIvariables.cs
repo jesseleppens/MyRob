@@ -8,7 +8,11 @@ namespace Assets.Scripts.API
     public class userinfo
     {
         public int calories;
+        public int cal_burned;
         public int fats;
+        public int carbohydrates;
+        public int liters;
+        public string day;
     }
 
 
