@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Assets.Scripts.API;
 
 public class SportHandler : MonoBehaviour
 {
@@ -28,7 +29,6 @@ public class SportHandler : MonoBehaviour
             isActive = false;
         }
     }
-
     public void CalorieCalculate()
     {
         for (int i = 0; i < minutesArray.Length; i++)
