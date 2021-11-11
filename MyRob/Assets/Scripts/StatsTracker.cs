@@ -10,6 +10,7 @@ public class StatsTracker : MonoBehaviour
     public static int water;
     public static int food;
     public static int sport;
+    public static float timerTime = 10;
     static Image sleepSprite;
     static Image waterSprite;
     static Image foodSprite;
@@ -17,6 +18,21 @@ public class StatsTracker : MonoBehaviour
     static Sprite[] spriteArray;
 
     private void Start()
+    {
+        sleep = PlayerPrefs.GetInt("sleep");
+        water = PlayerPrefs.GetInt("water");
+        food = PlayerPrefs.GetInt("food");
+        sport = PlayerPrefs.GetInt("sport");
+        sleepSprite = GameObject.Find("Sleep").GetComponent<Image>();
+        waterSprite = GameObject.Find("Water").GetComponent<Image>();
+        foodSprite = GameObject.Find("Food").GetComponent<Image>();
+        sportSprite = GameObject.Find("Sport").GetComponent<Image>();
+        spriteArray = Resources.LoadAll<Sprite>("UI/ButtonStates");
+        TextUpdate();
+        StatsBubbleUpdate();
+    }
+
+    public static void TextUpdate()
     {
         switch (SceneManager.GetActiveScene().buildIndex)
         {
@@ -38,17 +54,15 @@ public class StatsTracker : MonoBehaviour
                 overViewWater.text = StatsTracker.water + " ML";
                 break;
         }
-        sleepSprite = GameObject.Find("Sleep").GetComponent<Image>();
-        waterSprite = GameObject.Find("Water").GetComponent<Image>();
-        foodSprite = GameObject.Find("Food").GetComponent<Image>();
-        sportSprite = GameObject.Find("Sport").GetComponent<Image>();
-        spriteArray = Resources.LoadAll<Sprite>("UI/ButtonStates");
-        StatsBubbleUpdate();
     }
 
     public static void StatsBubbleUpdate()
     {
-
+        PlayerPrefs.SetInt("sleep", sleep);
+        PlayerPrefs.SetInt("water", water);
+        PlayerPrefs.SetInt("sport", sport);
+        PlayerPrefs.SetInt("food", food);
+        TextUpdate();
         if (sleep == 0)
         {
             sleepSprite.sprite = spriteArray[21];
@@ -138,4 +152,21 @@ public class StatsTracker : MonoBehaviour
             sportSprite.sprite = spriteArray[7];
         }
     }
+
+    //void FixedUpdate()
+    //{
+    //    if (timerTime > 0)
+    //    {
+    //       timerTime -= Time.fixedDeltaTime;
+    //    }
+    //    else
+    //    {
+    //        timerTime = 10;
+    //        water -= 500;
+    //        food -= 500;
+    //        sport -= 500;
+    //        sleep -= 5;
+    //        StatsBubbleUpdate();
+    //    }
+    //}
 }
