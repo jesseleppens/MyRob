@@ -116,10 +116,26 @@ public class StatsTracker : MonoBehaviour
             foodSprite.sprite = spriteArray[12];
         }
 
-      }
 
-        
-
-  
-
+        if (sport == 0)
+        {
+            sportSprite.sprite = spriteArray[11];
+        }
+        if (sport > 0 && sport <= 500)
+        {
+            sportSprite.sprite = spriteArray[10];
+        }
+        if (sport > 500 && sport <= 1000)
+        {
+            sportSprite.sprite = spriteArray[9];
+        }
+        if (sport > 1000 && sport <= 1500)
+        {
+            sportSprite.sprite = spriteArray[8];
+        }
+        if (sport > 1500)
+        {
+            sportSprite.sprite = spriteArray[7];
+        }
+    }
 }
