@@ -19,7 +19,7 @@ public class DecayHandler : MonoBehaviour
         }
         else
         {
-            StatsTracker.timerTime = 10;
+            StatsTracker.timerTime = 60;
             StatsTracker.water = 0;
             StatsTracker.sport = 0;
             StatsTracker.sleep = 0;

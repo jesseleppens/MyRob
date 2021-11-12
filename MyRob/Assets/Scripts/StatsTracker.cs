@@ -10,7 +10,7 @@ public class StatsTracker : MonoBehaviour
     public static int water;
     public static int food;
     public static int sport;
-    public static float timerTime = 10;
+    public static float timerTime = 60;
     static Image sleepSprite;
     static Image waterSprite;
     static Image foodSprite;
