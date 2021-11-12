@@ -23,32 +23,32 @@ public class submitwater : MonoBehaviour
     {
         if (kleinG_Toggle.isOn)
         {
-            WaterGedronken = WaterGedronken + 250;
+            WaterGedronken = WaterGedronken + 250;            // als de eerste toggle is geselecteerd wordt er 250 ml toegevoegd
         }
 
 
         if (normaalG_Toggle.isOn)
         {
-            WaterGedronken = WaterGedronken + 330;
+            WaterGedronken = WaterGedronken + 330;                // als de eerste tweede is geselecteerd wordt er 250 ml toegevoegd
         }
 
 
         if (grootG_Toggle.isOn)
         {
-            WaterGedronken = WaterGedronken + 500;
+            WaterGedronken = WaterGedronken + 500;                // als de derde  toggle is geselecteerd wordt er 250 ml toegevoegd
         }
 
 
         if (kanG_Toggle.isOn)
         {
-            WaterGedronken = WaterGedronken + 1000;
+            WaterGedronken = WaterGedronken + 1000;              // als de vierde toggle is geselecteerd wordt er 250 ml toegevoegd
         }
 
         Watergedronkenstring = WaterGedronken.ToString();
-        WatergedronkenText.text = Watergedronkenstring + " ML";
-        StatsTracker.water = WaterGedronken;
+        WatergedronkenText.text = Watergedronkenstring + " ML";     // verandert de text in unity
+        StatsTracker.water = WaterGedronken;                        // zorgt dat de statstracker weet wat water is water = waterdronken
 
-        StatsTracker.StatsBubbleUpdate();
+        StatsTracker.StatsBubbleUpdate();     // update de statstracker
     }
 
    
