@@ -7,6 +7,7 @@ namespace Assets.Scripts.API
     [System.Serializable]
     public class userinfo
     {
+        //all the variables in the API
         public int calories;
         public int cal_burned;
         public int fats;
@@ -19,6 +20,7 @@ namespace Assets.Scripts.API
     [System.Serializable]
      public class Data
     {
+        //a list of all the variables of userinfo
         public List<userinfo> data;
     }
 }

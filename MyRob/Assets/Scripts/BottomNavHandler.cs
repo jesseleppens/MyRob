@@ -9,8 +9,9 @@ public class BottomNavHandler : MonoBehaviour
 
     public void OnButtonClick ()
     {
-        ButtonToggle *= -1;
 
+        ButtonToggle *= -1;
+        //whenever the button is clicked an animation plas to either open te panel or close the panel
         if (ButtonToggle == 1)
         {
             Animator.Play("ButtonRadial_Start");

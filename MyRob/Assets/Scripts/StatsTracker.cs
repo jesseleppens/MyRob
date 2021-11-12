@@ -16,9 +16,11 @@ public class StatsTracker : MonoBehaviour
     static Image foodSprite;
     static Image sportSprite;
     static Sprite[] spriteArray;
+    static Animator animator;
 
     private void Start()
     {
+        //gets the save data and also gets the image components of the stat bars. lastly updates those images
         sleep = PlayerPrefs.GetInt("sleep");
         water = PlayerPrefs.GetInt("water");
         food = PlayerPrefs.GetInt("food");
@@ -28,12 +30,14 @@ public class StatsTracker : MonoBehaviour
         foodSprite = GameObject.Find("Food").GetComponent<Image>();
         sportSprite = GameObject.Find("Sport").GetComponent<Image>();
         spriteArray = Resources.LoadAll<Sprite>("UI/ButtonStates");
+        animator = GameObject.Find("Character_image").GetComponent<Animator>();
         TextUpdate();
         StatsBubbleUpdate();
     }
 
     public static void TextUpdate()
     {
+        //changes the on screen text based on what scene is currently loaded
         switch (SceneManager.GetActiveScene().buildIndex)
         {
             case 0:
@@ -54,15 +58,19 @@ public class StatsTracker : MonoBehaviour
                 overViewWater.text = StatsTracker.water + " ML";
                 break;
         }
+
     }
 
     public static void StatsBubbleUpdate()
     {
+        //saves the data and updates the spirtes to show how full the stat bar is
         PlayerPrefs.SetInt("sleep", sleep);
         PlayerPrefs.SetInt("water", water);
         PlayerPrefs.SetInt("sport", sport);
         PlayerPrefs.SetInt("food", food);
         TextUpdate();
+
+        //sleep
         if (sleep == 0)
         {
             sleepSprite.sprite = spriteArray[21];
@@ -108,7 +116,7 @@ public class StatsTracker : MonoBehaviour
         }
 
      
-        
+        //food
          if (food == 0)
         {
             foodSprite.sprite = spriteArray[16];
@@ -130,7 +138,7 @@ public class StatsTracker : MonoBehaviour
             foodSprite.sprite = spriteArray[12];
         }
 
-
+        //sport
         if (sport == 0)
         {
             sportSprite.sprite = spriteArray[11];
@@ -151,22 +159,19 @@ public class StatsTracker : MonoBehaviour
         {
             sportSprite.sprite = spriteArray[7];
         }
-    }
 
-    //void FixedUpdate()
-    //{
-    //    if (timerTime > 0)
-    //    {
-    //       timerTime -= Time.fixedDeltaTime;
-    //    }
-    //    else
-    //    {
-    //        timerTime = 10;
-    //        water -= 500;
-    //        food -= 500;
-    //        sport -= 500;
-    //        sleep -= 5;
-    //        StatsBubbleUpdate();
-    //    }
-    //}
+        //changes animation based on stat values
+        if (food < 100 && sport < 100 && water < 300 && sleep < 2)
+        {
+            animator.Play("Rob_Fat");
+        }
+        else if (food < 500 && sport > 1000)
+        {
+            animator.Play("Rob_Skinny");
+        }
+        else
+        {
+            animator.Play("Rob_Idle");
+        }
+    }
 }

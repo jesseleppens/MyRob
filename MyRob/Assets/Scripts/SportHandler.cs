@@ -31,6 +31,7 @@ public class SportHandler : MonoBehaviour
     }
     public void CalorieCalculate()
     {
+        //gets the calories burned per minute from an array then multiplies this by the given workout time, lastly saves this in a static variable and updates the UI
         for (int i = 0; i < minutesArray.Length; i++)
         {
             if (minutesArray[i].text == "" )

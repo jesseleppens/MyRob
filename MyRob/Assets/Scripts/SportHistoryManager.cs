@@ -12,6 +12,7 @@ public class SportHistoryManager : MonoBehaviour
     {
         for (int i = 0; i < APIget.GetWeather().data.Count; i++)
         {
+            //when the data is from the same day as the next one it is skipped
             if (APIget.GetWeather().data[i].day == APIget.GetWeather().data[i + 1].day)
             {
                 continue;
@@ -24,7 +25,7 @@ public class SportHistoryManager : MonoBehaviour
                 item.GetComponent<RectTransform>().sizeDelta = new Vector2(500, 100);
                 item.transform.localScale = new Vector3(1, 1, 1);
 
-                //changes the text of the labels to the date and the actual burned calories;
+                //changes the text of the labels to the date and the actual burned calories from the api;
                 Text date = item.transform.Find("date").GetComponent<Text>();
                 Text calburned = item.transform.Find("calburned").GetComponent<Text>();
                 date.text = APIget.GetWeather().data[i].day;
@@ -33,11 +34,5 @@ public class SportHistoryManager : MonoBehaviour
                 totalcalories = 0;
             }         
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
     }
 }

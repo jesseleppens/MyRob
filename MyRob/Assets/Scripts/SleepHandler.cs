@@ -37,6 +37,7 @@ public class SleepHandler : MonoBehaviour
 
     public void Submit()
     {
+        //submits the sleep time to a static variable, then saves it and displays the new values
         StatsTracker.sleep += (int)total;
         StatsTracker.StatsBubbleUpdate();
         totalSleep.text = "TOTAL SLEEP: " + StatsTracker.sleep + " HOURS";
@@ -45,6 +46,7 @@ public class SleepHandler : MonoBehaviour
 
     void ResetPanel()
     {
+        //resets all the sliders and values off the panel when called
         bedtimeSliderVal = 1;
         wakeupSliderVal = 1;
         WakeupTime.text = wakeupSliderVal.ToString();
