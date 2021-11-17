@@ -10,6 +10,11 @@ public class SportHistoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        UpdateScreen();
+    }
+
+    public void UpdateScreen()
+    {
         for (int i = 0; i < APIget.GetWeather().data.Count; i++)
         {
             //when the data is from the same day as the next one it is skipped
@@ -32,7 +37,8 @@ public class SportHistoryManager : MonoBehaviour
                 int totalcalories = APIget.GetWeather().data[i].cal_burned;
                 calburned.text = totalcalories.ToString();
                 totalcalories = 0;
-            }         
+            }
         }
     }
 }
+

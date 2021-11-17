@@ -23,4 +23,17 @@ namespace Assets.Scripts.API
         //a list of all the variables of userinfo
         public List<userinfo> data;
     }
+
+    [System.Serializable]
+    public class stappenvars
+    {
+        public int aantal_stappen;
+    }
+
+    [System.Serializable]
+    public class StappenData
+    {
+        //a list of all the variables of userinfo
+        public List<stappenvars> data;
+    }
 }

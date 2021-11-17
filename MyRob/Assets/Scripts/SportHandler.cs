@@ -41,6 +41,7 @@ public class SportHandler : MonoBehaviour
             totalCalorie += Mathf.RoundToInt(caloriesArray[i] * System.Convert.ToInt32(minutesArray[i].text));
         }
         StatsTracker.sport += totalCalorie;
+        APIget.UpdateDatabase();
         StatsTracker.StatsBubbleUpdate();
         totalCalorie = 0;
     }
